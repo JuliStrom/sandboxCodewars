@@ -1,10 +1,11 @@
 //Complete the square sum function so that it squares each number passed into it and then sums the results together.
 function squareSum(numbers){
-numbers = [];
-for (let i in numbers) {
-    let sum = Math.sum(numbers[i] ** 2);
-return sum;
-}
+    let sum = 0;
 
-};
-console.log(squareSum(1, 2, 2));
+for (let i = 1; i < numbers.length; i++) {
+    sum += (numbers[i] * numbers[i]);
+    return sum;
+}
+    
+    console.log(sum);
+}
