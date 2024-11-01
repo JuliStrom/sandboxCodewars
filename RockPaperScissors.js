@@ -12,3 +12,20 @@ const rps = (p1, p2) => {
 console.log(rps("paper", "paper"));
 console.log(rps("paper", "scissors"));
 console.log(rps("rock", "scissors"));
+
+
+
+// другое решение, которое понравилось
+/*const rps = (p1, p2) => {
+    var map = {
+    'rock': 'scissors',
+    'scissors': 'paper',
+    'paper': 'rock'
+    };
+    
+    if (p1 == p2) {
+    return 'Draw!';
+    } else {
+    return 'Player ' + (map[p1] == p2 ? 1 : 2) + ' won!';
+    }
+};*/
