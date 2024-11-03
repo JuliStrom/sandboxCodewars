@@ -9,3 +9,8 @@ function makeNegative(num) {
 console.log(makeNegative(42));
 console.log(makeNegative(-3));
 console.log(makeNegative(0));
+
+
+/*function makeNegative(num) {
+    return -Math.abs(num);
+}*/
