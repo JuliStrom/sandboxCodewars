@@ -11,7 +11,10 @@ function mango(quantity, price){
   return quantity * price;
 }
 
+/*function mango(quantity, price){
+  return price * (quantity - Math.floor(quantity / 3));
+}*/
 console.log(mango(3, 3)); // 6
 console.log(mango(9, 5)); // 30
 console.log(mango(5, 54)); // 216
-console.log(mango(10, 5)); // 35
+console.log(mango(10, 3)); // 35
